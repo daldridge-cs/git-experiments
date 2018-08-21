@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npx tsc",
     "clean": "rimraf lib",
-    "ts-node": "npx ts-node lib/src/index.ts",
+    "ts-node": "npx ts-node src/index.ts",
     "watch": "npx tsc -w"
   },
   "author": "",
