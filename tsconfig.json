@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES6",
+    "outDir": "./lib",
+    "lib": ["es5", "es2015.promise", "es2015.collection", "es2015.iterable"],
+    "sourceMap": true
+  },
+  "include": [
+    "src/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ],
+  "typingOptions": {
+    "enableAutoDiscovery": true
+  },
+  "compileOnSave": true
+}
+  
